@@ -32,9 +32,9 @@
         <div class="collapse navbar-collapse" id="header-navbar-collapse">
           <ul class="nav navbar-nav">
               <li class="active"><a href="/">首页</a></li>
-              <li><a href="">价格体系</a></li>
-              <li><a rel="nofollow" href="">购买服务</a></li>
-              <li><a rel="nofollow" href="">联系我们</a></li>
+              <li><a href="/cart.php">价格体系</a></li>
+              <li><a rel="nofollow" href="/cart.php">购买服务</a></li>
+              <li><a rel="nofollow" href="/submitticket.php?step=2&deptid=1">联系我们</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right nav-links">
             {if $languagechangeenabled && count($locales) > 1}
