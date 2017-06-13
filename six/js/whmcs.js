@@ -249,6 +249,7 @@ jQuery(document).ready(function() {
                         title: "Help",
                         hotkey: "Ctrl+F1",
                         btnClass: "btn open-modal",
+                        href: "submitticket.php?action=markdown",
                         icon: {
                             glyph: 'glyphicons glyphicons-question-sign',
                             fa: 'fa fa-question-circle',
@@ -256,18 +257,17 @@ jQuery(document).ready(function() {
                         },
                         callback: function(e) {
                             e.$editor.removeClass("md-fullscreen-mode");
-                        }
+                        },
+                        additionalAttr: [
+                            {
+                                name: 'data-modal-title',
+                                value: markdownGuide
+                            }
+                        ]
                     }]
                 }]
-            ],
-            hiddenButtons: [
-                'cmdImage'
             ]
         });
-
-        jQuery('button[data-handler="bootstrap-markdown-cmdHelp"]')
-            .attr('data-modal-title', markdownGuide)
-            .attr('href', 'submitticket.php?action=markdown');
 
         jQuery(this).closest("form").bind({
             submit: function() {
@@ -343,11 +343,6 @@ jQuery(document).ready(function() {
         e.preventDefault();
         openModal(frmTwoFactorActivation.attr('action'), frmTwoFactorActivation.serialize(), 'Loading...');
     });
-
-    jQuery('#frmPayment').find('#btnSubmit').on('click', function(){
-        jQuery(this).find('span').toggleClass('hidden');
-    })
-
 });
 
 /**
