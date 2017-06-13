@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/font-awesome.min.css">
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/swiper.min.css">
+<link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/style.css">
+<link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/styles.css">
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/styles2.css">
 <script src="{$WEB_ROOT}/templates/{$template}/js/jquery.min.js"></script>
 <script src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.min.js"></script>
