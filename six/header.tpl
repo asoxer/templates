@@ -88,23 +88,6 @@
                 </div>
               </li>
             {/if}
-            {if $adminMasqueradingAsClient}
-              <li>
-                <!-- Return to admin link -->
-                <div class="alert alert-danger admin-masquerade-notice">
-                    {$LANG.adminmasqueradingasclient}<br />
-                    <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.logoutandreturntoadminarea}</a>
-                </div>
-              </li>
-            {elseif $adminLoggedIn}
-              <li>
-                <!-- Return to admin link -->
-                <div class="alert alert-danger admin-masquerade-notice">
-                    {$LANG.adminloggedin}<br />
-                    <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.returntoadminarea}</a>
-                </div>
-              </li>
-            {/if}
             {if $loggedin}
             <li>
               {include file="$template/includes/navbar.tpl" navbar=$secondaryNavbar}

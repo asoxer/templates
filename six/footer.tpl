@@ -45,7 +45,21 @@
 </footer>
 
 {$footeroutput}
-
+{if $adminMasqueradingAsClient}
+  <li>
+    <!-- Return to admin link -->
+    <div class="alert alert-danger admin-masquerade-notice">
+        {$LANG.adminmasqueradingasclient}<br />
+        <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.logoutandreturntoadminarea}</a>
+    </div>
+  </li>
+{elseif $adminLoggedIn}
+  <!-- Return to admin link -->
+  <div class="alert alert-danger admin-masquerade-notice">
+      {$LANG.adminloggedin}<br />
+      <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.returntoadminarea}</a>
+  </div>
+{/if}
 
 </body>
 </html>
