@@ -25,8 +25,10 @@
                 </div>
                 
                 {foreach $products as $key => $product}
+
                 {if $key%2 == 0}
-                    <div class="row row-eq-height">
+                    <h1>{$key} - {$products.length}</h1>
+                    <!-- <div class="row row-eq-height"> -->
                 {/if}
                 <div class="col-md-6">
                     <div class="card card-elite" id="product{$product@iteration}">
@@ -103,9 +105,9 @@
                         </div>
                     </div>
                 </div>
-                {if ($key neq 0) && ($key%2 == 0)}
+                <!-- {if ($key neq 0) && ($key%2 == 0)}
                     </div>
-                {/if}
+                {/if} -->
                 {/foreach}
             </div>
         </div>
