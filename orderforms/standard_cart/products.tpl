@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="cart-title">
-                    <div class="payment-icons"><img src="./images/payment-icons.png"></div>
+                    <!-- <div class="payment-icons"><img src="./images/payment-icons.png"></div> -->
                     <h1>开通服务<small>直接选择对应的服务即可开通账号</small></h1>
                 </div>
                 <!-- <div class="alert text-center">
