@@ -25,6 +25,9 @@
                 </div>
                 <div class="row row-eq-height">
                     {foreach $products as $key => $product}
+                        {if $key%2 == 0}
+                            <h1>123{$key}</h1>
+                        {/if}
                     <div class="col-md-6">
                         <div class="card card-elite" id="product{$product@iteration}">
                             <h4 class="card-heading" id="product{$product@iteration}-name">
