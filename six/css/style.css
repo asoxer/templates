@@ -1085,6 +1085,9 @@
 }
 #products .card .price {
     text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color: #ff8c23;
 }
 #products .card .price strong {
     font-weight: normal;

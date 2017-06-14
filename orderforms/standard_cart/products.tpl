@@ -42,7 +42,7 @@
                         </h4>
                         <div class="content">
                             <div class="card-right">
-                                <div class="price" id="product{$product@iteration}-price">
+                                <div id="product{$product@iteration}-price">
                                     {if $product.bid}
                                         {$LANG.bundledeal}<br />
                                         {if $product.displayprice}
@@ -75,7 +75,7 @@
                                     {/if}
                                 </div>
                                 <div class="order">
-                                    <a href="cart.php?a=add&{if $product.bid}bid={$product.bid}{else}pid={$product.pid}{/if}" class="btn btn-success btn-sm" id="product{$product@iteration}-order-button">
+                                    <a href="cart.php?a=add&{if $product.bid}bid={$product.bid}{else}pid={$product.pid}{/if}" class="btn btn-primary" id="product{$product@iteration}-order-button">
                                         <i class="fa fa-shopping-cart"></i>
                                         {$LANG.ordernowbutton}
                                     </a>
