@@ -9,8 +9,12 @@
                 <div class="banner">
                     <h1>今天，购买进阶版，立减 50%，仅售 ￥64.50 元/年！</h1>
                     <h2>购买 <strong>进阶版</strong> 产品，在支付页面输入优惠码 <code>JJ50P</code> 立减 <strong>50%</strong>！</h2>
-                    <p class="text-muted">活动周期：3天，每日限量200名，活动结束后恢复原价，仅限购买进阶版产品</p>
-                    <div class="btns"><a href="" class="btn btn-reverse primary">限时半价抢购</a></div>
+                    <p class="text-muted">
+                        活动周期：3天，每日限量200名，活动结束后恢复原价，仅限购买进阶版产品
+                    </p>
+                    <div class="btns">
+                        <a href="" class="btn btn-reverse primary">限时半价抢购</a>
+                    </div>
                 </div>
                 <div class="cart-title">
                     <div class="payment-icons"><img src="./images/payment-icons.png"></div>
@@ -20,7 +24,7 @@
                     <p>使用优惠码 <code>JJ50P</code>，购买进阶版服务，立减 50%，现在只需支付 ￥64元，促销活动有效期 3 天，每天限量 200 个，<a href="">立即抢购</a></p>
                 </div>
                 <div class="row row-eq-height">
-                    {foreach $products as $product}
+                    {foreach $products as $key => $product}
                     <div class="col-md-6">
                         <div class="card card-elite" id="product{$product@iteration}">
                             <h4 class="card-heading" id="product{$product@iteration}-name">
