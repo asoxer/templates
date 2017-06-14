@@ -20,18 +20,17 @@
                     <div class="payment-icons"><img src="./images/payment-icons.png"></div>
                     <h1>开通服务<small>直接选择对应的服务即可开通账号</small></h1>
                 </div>
-                <div class="alert text-center">
+                <!-- <div class="alert text-center">
                     <p>使用优惠码 <code>JJ50P</code>，购买进阶版服务，立减 50%，现在只需支付 ￥64元，促销活动有效期 3 天，每天限量 200 个，<a href="">立即抢购</a></p>
-                </div>
+                </div> -->
                 
                 {foreach $products as $key => $product}
 
-                {if $key%2 == 0}
-                    <h1>{$key} - {$products.length}</h1>
-                    <!-- <div class="row row-eq-height"> -->
-                {/if}
+               <!--  {if $key%2 == 0}
+                    <div class="row row-eq-height">
+                {/if} -->
                 <div class="col-md-6">
-                    <div class="card card-elite" id="product{$product@iteration}">
+                    <div class="card {if $key == 0}card-elite{/if}" id="product{$product@iteration}">
                         <h4 class="card-heading" id="product{$product@iteration}-name">
                             {$product.name}
                             {if $product.qty}
