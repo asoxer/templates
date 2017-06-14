@@ -504,3 +504,11 @@ footer .copyright {
     display: none;
   }
 }
+
+.card .content .product-desc ul {
+  list-style: none;
+  padding: 0;
+}
+.card .content .product-desc ul li {
+  line-height: 28px;
+}
