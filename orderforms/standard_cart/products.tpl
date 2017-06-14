@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                {if $key%2 == 0}
+                {if ($key neq 0) && ($key%2 == 0)}
                     </div>
                 {/if}
                 {/foreach}
