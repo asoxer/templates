@@ -24,12 +24,12 @@
 
             </div>
 
-            <div class="col-md-3 pull-md-left sidebar hidden-xs hidden-sm">
+           <!--  <div class="col-md-3 pull-md-left sidebar hidden-xs hidden-sm">
 
                 {include file="orderforms/standard_cart/sidebar-categories.tpl"}
 
             </div>
-
+ -->
             <div class="col-md-9 pull-md-right">
 
                 {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
