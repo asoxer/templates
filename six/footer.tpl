@@ -40,7 +40,7 @@
       </div>
   </div>
   <div class="copyright">
-      © 2014-2017 <a href="">天行VPN</a> All Rights Reserved.
+      © 2010-2017 <a href="/">天行VPN</a> All Rights Reserved.
   </div>
 </footer>
 

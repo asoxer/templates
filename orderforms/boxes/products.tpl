@@ -10,11 +10,11 @@
 
     </div>
 
-    <div class="col-md-3 pull-md-left sidebar hidden-xs hidden-sm">
+    <!-- <div class="col-md-3 pull-md-left sidebar hidden-xs hidden-sm">
 
         {include file="orderforms/$carttpl/sidebar-categories.tpl"}
 
-    </div>
+    </div> -->
 
     <div class="col-md-9 pull-md-right">
 
