@@ -69,6 +69,7 @@ a:focus {
   box-shadow: none;
 }
 .btn-primary {
+  background: none;
   border-color: #56b5fa;
   background-color: #56b5fa;
 }
@@ -512,3 +513,4 @@ footer .copyright {
 .card .content .product-desc ul li {
   line-height: 28px;
 }
+
