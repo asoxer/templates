@@ -1083,6 +1083,9 @@
     margin-top: -20px;
     width: 180px;
 }
+#products .card .product-price {
+    text-align: center;
+}
 #products .card .price {
     text-align: center;
     font-weight: normal;

@@ -42,7 +42,8 @@
                         </h4>
                         <div class="content">
                             <div class="card-right">
-                                <div id="product{$product@iteration}-price">
+                            <!-- {$product@iteration} -->
+                                <div class="product-price">
                                     {if $product.bid}
                                         {$LANG.bundledeal}<br />
                                         {if $product.displayprice}
