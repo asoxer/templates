@@ -4,7 +4,7 @@
       <div class="swiper-wrapper">
           <div class="swiper-slide slide-1">
               <div class="text">
-                  <h4>今天 进阶版 半价，仅售 ￥62.8 元/年</h4>
+                  <h4>今天 进阶版 半价，仅售 ￥64 元/年</h4>
                   <p>活动时间：23:59:59 截止，限量发售 200 名</p>
                   <p>全新支持 shadowsocks <a href="" target="_blank">影梭</a> 客户端，穿透力更强，性能更高</p>
                   <p>天行VPN<sup>pro</sup> 每半月推出一枚促销码，对应产品立减50%</p>
