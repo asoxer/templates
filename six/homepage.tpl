@@ -4,7 +4,7 @@
       <div class="swiper-wrapper">
           <div class="swiper-slide slide-1">
               <div class="text">
-                  <h4>今天 进阶版 半价，仅售 ￥64.50 元/年</h4>
+                  <h4>今天 进阶版 半价，仅售 ￥62.8 元/年</h4>
                   <p>活动时间：23:59:59 截止，限量发售 200 名</p>
                   <p>全新支持 shadowsocks <a href="" target="_blank">影梭</a> 客户端，穿透力更强，性能更高</p>
                   <p>天行VPN<sup>pro</sup> 每半月推出一枚促销码，对应产品立减50%</p>
@@ -43,19 +43,20 @@
   <section class="product-list product-lists wrap clearfix">
       <div class="item">
           <div class="header">
-              免费版
+              体验版
           </div>
           <div class="text">
-              <p>终端：1</p>
-              <p>线路：3 条</p>
-              <p>带宽：千兆带宽接入</p>
+              <p>终端：2台设备（1 PC + 1 Mobile）</p>
+              <p>流量：50G流量</p>
+              <p>线路：1 条</p>
+              <p>带宽：百兆带宽接入</p>
               <p>机房：美国</p>
           </div>
           <div class="price">
-              免费/24小时
+              ￥9.90/月
           </div>
           <div class="cart">
-              <a href="javascript:;" class="btn btn-default btn-lg disabled">已抢光</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -64,49 +65,52 @@
           </div>
           <div class="text">
               <p>终端：2台设备（1 PC + 1 Mobile）</p>
+              <p>流量：不限</p>
               <p>线路：8-12 条</p>
               <p>带宽：千兆带宽接入</p>
               <p>机房：美国、日本、新加坡、香港</p>
           </div>
           <div class="price">
-              ￥99.00/年
+              ￥18.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item elite">
           <div class="header">
-              进阶版
+              季度版
           </div>
           <div class="text">
-              <p>终端：6台设备（3 PC + 3 Mobile）</p>
-              <p>线路：12-15 条</p>
+              <p>终端：4台设备（2 PC + 2 Mobile）</p>
+              <p>流量：不限</p>
+              <p>线路：8-12 条</p>
               <p>带宽：千兆带宽接入</p>
               <p>机房：美国、日本、新加坡、香港</p>
           </div>
           <div class="price">
-              <s>￥129.00/年</s> ￥64.50/年
+              ￥48.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item">
           <div class="header">
-              旗舰版
+              年度版
           </div>
           <div class="text">
-              <p>终端：10台设备（5 PC + 5 Mobile）</p>
+              <p>终端：6台设备（3 PC + 3 Mobile）</p>
+              <p>流量：不限</p>
               <p>线路：15-18 条</p>
               <p>带宽：千兆带宽接入</p>
               <p>机房：美国、日本、新加坡、香港</p>
           </div>
           <div class="price">
-              ￥219.00/年
+              ￥128.00/年
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
   </section>
@@ -129,7 +133,7 @@
               ￥299.00/年
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -146,7 +150,7 @@
               ￥439.00/年
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -163,7 +167,7 @@
               ￥300.00/月 <sup>特价</sup>
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -180,7 +184,7 @@
               ￥800.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default disabled">已抢光</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default disabled">已抢光</a>
           </div>
       </div>
       <div class="item">
@@ -197,7 +201,7 @@
               ￥1200.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="" class="btn btn-default">立即购买</a>
+              <a rel="nofollow" href="/cart.php" class="btn btn-default">立即购买</a>
           </div>
       </div>
   </section>
