@@ -115,7 +115,7 @@
           </div>
       </div>
   </section>
-  <section class="wrap introduction">
+  <!-- <section class="wrap introduction">
       <h4>精准定制，基于场景的行业解决方案</h4>
       <p>针对个人客户、企业客户深度规划，满足用户多方位使用需求</p>
   </section>
@@ -205,7 +205,7 @@
               <a rel="nofollow" href="/cart.php" class="btn btn-default">立即购买</a>
           </div>
       </div>
-  </section>
+  </section> -->
   <section class="wrap introduction">
       <h4>功能强大，VPN市场口碑最好的加速服务</h4>
       <p>相比第一代，无论在连接速度、安全隐私、客户端兼容、易用性等方面，都能表现卓越</p>
