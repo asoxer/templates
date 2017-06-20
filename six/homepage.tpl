@@ -20,7 +20,7 @@
                 <img src="/templates/six/images/banner/roll4.png" class="reverse slow">
               </div>
           </div>
-          <div class="swiper-slide slide-2">
+          <div class="swiper-slide slide-2" id="waveDot">
               <div class="text">
                   <h4>潜心研发 成功推出第二代天行VPN</h4>
                   <p>天行VPN <sup>pro</sup> 第二代安全性更高，稳定性更强</p>
@@ -288,6 +288,8 @@
         <img src="{$WEB_ROOT}/templates/{$template}/images/site-logos.png">
       </span>
   </section>
+  <script src="/templates/six/js/three.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="/templates/six/js/wavedot.js" type="text/javascript" charset="utf-8" ></script>
   <script>
     window.onload = function() {
       new Swiper('.swiper-container', {
