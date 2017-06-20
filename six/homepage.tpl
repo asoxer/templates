@@ -3,8 +3,8 @@
 <!-- Slider main container -->
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide slide-1">
-              <div class="text">
+          <div class="swiper-slide slide-1 row">
+              <div class="text col-md-6">
                   <h4>今天 进阶版 半价，仅售 ￥64 元/年</h4>
                   <p>活动时间：23:59:59 截止，限量发售 200 名</p>
                   <p>全新支持 shadowsocks <a href="" target="_blank">影梭</a> 客户端，穿透力更强，性能更高</p>
@@ -12,6 +12,12 @@
                   <div class="cart">
                       <a rel="nofollow" href="/cart.php" class="btn btn-reverse primary btn-lg">立即抢购</a>
                   </div>
+              </div>
+              <div class="bannerRollBox col-md-6">
+                <img src="./roll1.png" class="slow">
+                <img src="./roll2.png" class="reverse slow">
+                <img src="./roll3.png" class="slow">
+                <img src="./roll4.png" class="reverse slow">
               </div>
           </div>
           <div class="swiper-slide slide-2">
