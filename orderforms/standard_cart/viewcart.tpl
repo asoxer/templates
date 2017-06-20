@@ -16,7 +16,7 @@
         <div class="header-lined row">
             <h1>{$LANG.cartreviewcheckout}</h1>
         </div>
-        <div class="row">
+        <div class="row" style="max-width: 1000px;margin: 0 auto;">
             {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
             <div class="col-md-8 panel panel-default">
 
@@ -443,7 +443,7 @@
                         </div>
 
                         <div class="text-right">
-                            <a href="cart.php?a=checkout" class="btn btn-success btn-lg btn-checkout{if $cartitems == 0} disabled{/if}" id="checkout">
+                            <a href="cart.php?a=checkout" class="btn btn-primary btn-lg{if $cartitems == 0} disabled{/if}" id="checkout">
                                 {$LANG.orderForm.checkout}
                                 <i class="fa fa-arrow-right"></i>
                             </a><br />
