@@ -60,9 +60,9 @@
             renderer.setSize( window.innerWidth, window.innerHeight );
             container.appendChild( renderer.domElement );
 
-            document.getElementById('waveDot').addEventListener( 'mousemove', onDocumentMouseMove, false );
-            document.getElementById('waveDot').addEventListener( 'touchstart', onDocumentTouchStart, false );
-            document.getElementById('waveDot').addEventListener( 'touchmove', onDocumentTouchMove, false );
+            document.getElementById(id).addEventListener( 'mousemove', onDocumentMouseMove, false );
+            document.getElementById(id).addEventListener( 'touchstart', onDocumentTouchStart, false );
+            document.getElementById(id).addEventListener( 'touchmove', onDocumentTouchMove, false );
 
             //
 
