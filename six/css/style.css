@@ -1186,7 +1186,7 @@
 #frmConfigureProduct,
 #frmViewCartProduct,
 #frmCheckoutProduct {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 #order-standard_cart .content .table {

@@ -10,7 +10,7 @@ var _localLang = {
 </script>
 
 <div id="order-standard_cart">
-    <div class="header-lined row">
+    <div class="header-lined row" style="padding: 20px 100px;">
         <h1>{$LANG.orderconfigure}</h1>
     </div>
     <div class="row" style="padding: 0 40px;">
