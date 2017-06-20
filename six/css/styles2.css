@@ -210,7 +210,7 @@ footer .copyright {
   background-size: contain;
 }
 #index .swiper-container .swiper-slide .text {
-  margin: 100px auto auto 80px;
+  padding: 80px 100px 0;
   font-size: 16px;
   line-height: 30px;
   opacity: .9;
@@ -232,12 +232,7 @@ footer .copyright {
 
 }
 .bannerRollBox {
-  position: absolute;
-  right: 0;
-  width: 800px;
-  height: 800px;
-  bottom: -118px;
-  z-index: 999999; 
+  height: 100%;
 }
   
 .bannerRollBox img {
@@ -246,9 +241,6 @@ footer .copyright {
   top: 50%;
   margin-top: -400px;
   margin-left: -400px;
-  -webkit-animation: spinAround 40s linear infinite;
-  -o-animation: spinAround 40s linear infinite;
-  animation: spinAround 40s linear infinite;
 }
 .bannerRollBox img.reverse {
   -webkit-animation-direction: reverse;
@@ -261,6 +253,9 @@ footer .copyright {
   animation-duration: 30s; 
 }
 .bannerRollBox img.slow {
+  -webkit-animation: spinAround 40s linear infinite;
+  -o-animation: spinAround 40s linear infinite;
+  animation: spinAround 40s linear infinite;
   -webkit-animation-duration: 80s;
   -o-animation-duration: 80s;
   animation-duration: 80s; 
