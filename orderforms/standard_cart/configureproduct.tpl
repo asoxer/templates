@@ -284,22 +284,24 @@ var _localLang = {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 panel panel-default" id="scrollingPanelContainer">
+                <div class="col-md-4" id="scrollingPanelContainer">
+
                     <div id="orderSummary">
-                        <div class="panel-heading">
-                            <i class="fa fa-fw fa-refresh fa-spin"></i>
-                            {$LANG.ordersummary}
-                        </div>
-                        <div class="panel-body">
+                        <div class="order-summary">
+                            <div class="loader" id="orderSummaryLoader">
+                                <i class="fa fa-fw fa-refresh fa-spin"></i>
+                            </div>
+                            <h2>{$LANG.ordersummary}</h2>
                             <div class="summary-container" id="producttotal"></div>
-                            <div class="text-center">
+                        </div>
+                        <div class="text-center">
                             <button type="submit" id="btnCompleteProductConfig" class="btn btn-primary btn-lg">
                                 {$LANG.continue}
                                 <i class="fa fa-arrow-circle-right"></i>
                             </button>
                         </div>
-                        </div>
                     </div>
+
                 </div>
 
             </div>
