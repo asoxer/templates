@@ -1,0 +1,120 @@
+body {
+  font-size: 14px;
+  font-family: "proxima-nova", Verdana, Tahoma, sans-serif;
+  background-color: #ECEFF4;
+}
+.row {
+  margin: 0;
+}
+.panel-default,
+.panel-heading {
+  border: none;
+}
+.table>tbody>tr>td {
+  border: none;
+  line-height: 24px;
+}
+.invoice-container td.total-row {
+  background-color: #fff;
+}
+.select-inline {
+  width: 190px;
+}
+h2.apply-type {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+.invoice-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.05);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: none;
+  margin-top: 70px;
+  padding: 0;
+}
+.invoice-container .header {
+  background-color: #F4F5F9;
+  padding: 45px 45px 16px;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 40px;
+}
+.invoice-container .header .title h1 {
+  color: #131313;
+  margin-top: 0;
+  font-weight: 300;
+  font-family: Raleway, sans-serif;
+}
+.invoice-container .order-content {
+  padding: 0 45px;
+}
+.text-center h3 {
+  margin-top: 0;
+}
+.PDB2C_moban1_buy_size3 {
+  margin-top: 10px;
+}
+.PDB2C_moban1_cat_size3,
+[title="加入购物车"] {
+  display: none;
+}
+.PDB2C_moban1_btn,
+.PDB2C_fixed-top {
+  display: none;
+}
+
+.success-tips {
+  width: 200px;
+  margin-left: 198px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.tips .promise {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.alipay {
+  width: 182px;
+  margin-left: 210px;
+}
+.alipay .title {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+}
+.alipay .amount{
+  font-size: 26px;
+  font-weight: 700;
+  color: #f60;
+}
+.alipay .alipay-code {
+  position: relative;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  padding: 6px;
+}
+.alipay .alipay-code .amount-img {
+  width: 100%;
+}
+/*.alipay .alipay-code .intro-img {
+  display: none;
+  width: 204px;
+  position: absolute;
+  top: -40px;
+  left: 182px;
+}*/
+.alipay .alipay-code .tips {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.alipay .alipay-code .tips .scan {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+}
+.alipay .alipay-code .tips p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
