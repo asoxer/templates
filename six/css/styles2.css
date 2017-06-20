@@ -583,17 +583,17 @@ footer .copyright {
   padding: 0;
 }
 #orderSummary {
-  background-color: #fff;
-  padding-bottom: 20px;
+  background-color: #fff !important;
+  padding-bottom: 20px !important;
 }
 #order-standard_cart .order-summary {
-  background-color: #fff;
-  border-bottom: none;
+  background-color: #fff !important;
+  border-bottom: none !important;
 }
 #order-standard_cart .order-summary h2 {
-  color: #333;
-  border-top: 2px solid #04a2c8;
+  color: #333 !important;
+  border-top: 2px solid #04a2c8 !important;
 }
 #order-standard_cart .summary-container {
-  background-color: #fff;
+  background-color: #fff !important;
 }
