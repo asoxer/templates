@@ -1,4 +1,6 @@
+<!-- $$$$confproduct -->
 {include file="orderforms/standard_cart/common.tpl"}
+
 
 <script>
 var _localLang = {
@@ -25,7 +27,7 @@ var _localLang = {
 
         </div> -->
 
-        <div class="col-md-9 pull-md-right">
+        <div class="row">
 
             {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
 
