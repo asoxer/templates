@@ -573,3 +573,12 @@ footer .copyright {
   line-height: 28px;
 }
 
+.row.header-lined {
+  padding: 20px 100px;
+}
+.row.container {
+  padding: 0 40px;
+}
+.panel-default {
+  padding: 0;
+}
