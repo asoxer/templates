@@ -231,6 +231,57 @@ footer .copyright {
 #index .slide-1 .bannerRollBox {
 
 }
+.bannerRollBox {
+  position: absolute;
+  right: 0;
+  width: 800px;
+  height: 800px;
+  bottom: -118px;
+  z-index: 999999; 
+}
+  
+.bannerRollBox img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -400px;
+  margin-left: -400px;
+  -webkit-animation: spinAround 40s linear infinite;
+  -o-animation: spinAround 40s linear infinite;
+  animation: spinAround 40s linear infinite;
+}
+.bannerRollBox img.reverse {
+  -webkit-animation-direction: reverse;
+  -o-animation-direction: reverse;
+  animation-direction: reverse; 
+}
+.bannerRollBox img.fast {
+  -webkit-animation-duration: 30s;
+  -o-animation-duration: 30s;
+  animation-duration: 30s; 
+}
+.bannerRollBox img.slow {
+  -webkit-animation-duration: 80s;
+  -o-animation-duration: 80s;
+  animation-duration: 80s; 
+}
+@keyframes spinAround{
+  0%{
+    -webkit-transform: rotateZ(0);
+    -o-transform: rotateZ(0);
+    transform: rotateZ(0);
+    -webkit-transform-origin: center center;
+    transform-origin: center center
+  } 
+  100%{ 
+    -webkit-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center
+  }
+}
+
 #index .swiper-container .slide-2 {
   background-image: url(/templates/six/images/banner/banner-02-bg.png);
 }

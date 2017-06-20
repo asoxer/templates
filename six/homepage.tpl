@@ -14,10 +14,10 @@
                   </div>
               </div>
               <div class="bannerRollBox col-md-6">
-                <img src="./roll1.png" class="slow">
-                <img src="./roll2.png" class="reverse slow">
-                <img src="./roll3.png" class="slow">
-                <img src="./roll4.png" class="reverse slow">
+                <img src="/templates/six/images/banner/roll1.png" class="slow">
+                <img src="/templates/six/images/banner/roll2.png" class="reverse slow">
+                <img src="/templates/six/images/banner/roll3.png" class="slow">
+                <img src="/templates/six/images/banner/roll4.png" class="reverse slow">
               </div>
           </div>
           <div class="swiper-slide slide-2">
