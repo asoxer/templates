@@ -1,4 +1,4 @@
-<form method="post" action="clientarea.php?action=masspay" class="form-horizontal">
+<form method="post" action="clientarea.php?action=masspay" class="form-horizontal" style="max-height: 1000px;margin: 0 auto;">
     <input type="hidden" name="geninvoice" value="true" />
 
     <table class="table">
