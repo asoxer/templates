@@ -606,3 +606,6 @@ footer .copyright {
 #order-standard_cart .summary-container {
   background-color: #fff !important;
 }
+#order-standard_cart .checkout-security-msg i {
+  font-size: 20px !important;
+}
