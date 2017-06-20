@@ -280,6 +280,7 @@ footer .copyright {
 #index .swiper-container img.slogan {
   width: 800px;
   z-index: 99;
+  margin-left: -25%;
 }
 #index .swiper-slide > section {
   position: absolute;
