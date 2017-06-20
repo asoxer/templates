@@ -582,3 +582,18 @@ footer .copyright {
 .panel-default {
   padding: 0;
 }
+#orderSummary {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+#order-standard_cart .order-summary {
+  background-color: #fff;
+  border-bottom: none;
+}
+#order-standard_cart .order-summary h2 {
+  color: #333;
+  border-top: 2px solid #04a2c8;
+}
+#order-standard_cart .summary-container {
+  background-color: #fff;
+}
