@@ -242,13 +242,7 @@ footer .copyright {
   margin-top: -400px;
   margin-left: -400px;
 }
-.bannerRollBox img.slogan {
-  width: 800px;
-  top: 0;
-  left: 0;
-  margin: 0;
-  z-index: 99;
-}
+
 .bannerRollBox img.reverse {
   -webkit-animation-direction: reverse;
   -o-animation-direction: reverse;
@@ -283,13 +277,21 @@ footer .copyright {
     transform-origin: center center
   }
 }
-
-#index .swiper-container .slide-2 {
+#index .swiper-container img.slogan {
+  width: 400px;
+  z-index: 99;
+}
+#index .swiper-slide > section {
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+}
+/* #index .swiper-container .slide-2 {
   background-image: url(/templates/six/images/banner/banner-01-bg.png);
 }
 #index .swiper-container .slide-3 {
   background-image: url(/templates/six/images/banner/banner-03-bg.png);
-}
+} */
 #index .swiper-container .swiper-pagination-bullet {
   border-radius: 0;
   width: 30px;

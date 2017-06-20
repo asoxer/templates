@@ -1,5 +1,6 @@
-    waveDotFn()
-    function waveDotFn(){
+    waveDotFn('waveDot');
+    waveDotFn('waveDot1');
+    function waveDotFn(id){
         var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 50;
 
         var container;
@@ -17,7 +18,7 @@
 
         function init() {
             container = document.createElement( 'section' );
-            document.getElementById('waveDot').appendChild( container );
+            document.getElementById(id).appendChild( container );
 
             camera = new THREE.PerspectiveCamera( 1000, window.innerWidth / window.innerHeight, 1, 10000 );
             camera.position.z = 300;

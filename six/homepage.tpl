@@ -21,23 +21,29 @@
               </div>
           </div>
           <div class="swiper-slide slide-2" id="waveDot">
-              <div class="text">
-                  <h4>潜心研发 成功推出第二代天行VPN</h4>
-                  <p>天行VPN <sup>pro</sup> 第二代安全性更高，稳定性更强</p>
-                  <p>相比第一代天行VPN，整体性能提升高达 60%，满足崇尚高端品质的用户、企业定制化需求</p>
-                  <div class="cart">
-                      <a rel="nofollow" href="/cart.php" class="btn btn-reverse primary btn-lg">立即使用</a>
-                  </div>
+            <div class="text col-md-6">
+              <h4>潜心研发 成功推出第二代天行VPN</h4>
+              <p>天行VPN <sup>pro</sup> 第二代安全性更高，稳定性更强</p>
+              <p>相比第一代天行VPN，整体性能提升高达 60%，满足崇尚高端品质的用户、企业定制化需求</p>
+              <div class="cart">
+                  <a rel="nofollow" href="/cart.php" class="btn btn-reverse primary btn-lg">立即使用</a>
               </div>
+            </div>
+            <div class="col-md-6">
+              <img src="/templates/six/images/banner/banner-02-bg.png" class="slogan">
+            </div>
           </div>
-          <div class="swiper-slide slide-3">
-              <div class="text">
+          <div class="swiper-slide slide-3" id="waveDot1">
+              <div class="text col-md-6">
                   <h4>行业级加密算法</h4>
                   <p>采用行业级AES-256-CFB加密算法，通过私密管道传输，保障您的隐私安全</p>
                   <p>香港、日本、新加坡、美国数据中心，千兆带宽接入，不限流量，机房全天专人值守不掉线</p>
                   <div class="cart">
                       <a rel="nofollow" href="/cart.php" class="btn btn-reverse primary btn-lg">立即使用</a>
                   </div>
+              </div>
+              <div class="col-md-6">
+                <img src="/templates/six/images/banner/banner-03-bg.png" class="slogan">
               </div>
           </div>
       </div>
