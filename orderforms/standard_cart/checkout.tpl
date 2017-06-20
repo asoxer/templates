@@ -36,7 +36,7 @@
     <div class="header-lined row">
         <h1>{$LANG.orderForm.checkout}</h1>
     </div>
-    <div class="row" style="max-width: 1000px;">
+    <div class="row" style="max-width: 1000px;margin: 0 auto;">
         {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
 
         <div class="already-registered clearfix">
