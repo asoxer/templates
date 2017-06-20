@@ -582,9 +582,18 @@ footer .copyright {
 .panel-default {
   padding: 0;
 }
+#order-standard_cart label {
+  font-weight: 400 !important;
+  color: #333 !important;
+  font-size: 14px !important;
+}
+#order-standard_cart .field-help-text {
+  color: #333 !important;
+}
 #orderSummary {
   background-color: #fff !important;
   padding-bottom: 20px !important;
+  border: 1px solid #ddd;
 }
 #order-standard_cart .order-summary {
   background-color: #fff !important;
