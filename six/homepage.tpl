@@ -14,7 +14,6 @@
                   </div>
               </div>
               <div class="bannerRollBox col-md-6">
-                <img src="/templates/six/images/banner/banner-01-bg.png" class="slogan" alt="">
                 <img src="/templates/six/images/banner/roll1.png" class="slow">
                 <img src="/templates/six/images/banner/roll2.png" class="reverse slow">
                 <img src="/templates/six/images/banner/roll3.png" class="slow">
