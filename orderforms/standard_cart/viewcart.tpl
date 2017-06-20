@@ -1,3 +1,4 @@
+<!-- $$$$cart -->
 {if $checkout}
 
     {include file="orderforms/$carttpl/checkout.tpl"}
