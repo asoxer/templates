@@ -300,7 +300,8 @@
     window.onload = function() {
       new Swiper('.swiper-container', {
           pagination: '.swiper-pagination',
-          paginationClickable: true
+          paginationClickable: true,
+          autoplay: 5000
       });
 
       $('.product-lists').find('.item').hover(function() {
