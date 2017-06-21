@@ -114,23 +114,25 @@
                             <p class="amount">{$balance}</p>
                             <div class="alipay-code">
                             {if $balance eq "¥18.00 CNY"}
-                              <img class="amount-img" src="/assets/img/alipay/18.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/18.jpg" />
                             {elseif $balance eq "¥9.90 CNY"}
-                              <img class="amount-img" src="/assets/img/alipay/9.9.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/9.9.jpg" />
                             {elseif $balance eq "¥48.00 CNY"}
-                              <img class="amount-img" src="/assets/img/alipay/48.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/48.jpg" />
+                            {elseif $balance eq "¥64.00 CNY"}
+                              <img class="amount-img" src="/templates/six/images/alipay/64.jpg" />
                             {elseif $balance eq "¥88.00 CNY"}
-                              <img class="amount-img" src="/assets/img/alipay/88.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/88.jpg" />
                             {elseif $balance eq "¥128.00 CNY"}
-                              <img class="amount-img" src="/assets/img/alipay/128.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/128.jpg" />
                             {elseif $balance eq "¥188.00 CNY"}
-                              <img class="amount-img" src="/assets/img/alipay/188.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/188.jpg" />
                             {elseif $balance}
-                              <img class="amount-img" src="/assets/img/alipay/default.jpg" />
+                              <img class="amount-img" src="/templates/six/images/alipay/default.jpg" />
                             {/if}
-                              <!-- <img class="intro-img" src="/assets/img/alipay/intro.png" /> -->
+                              <!-- <img class="intro-img" src="/templates/six/images/alipay/intro.png" /> -->
                               <div class="tips">
-                                <img class="scan" src="/assets/img/alipay/scan.png" />
+                                <img class="scan" src="/templates/six/images/alipay/scan.png" />
                                 <p>打开手机支付宝</p>
                                 <p>扫一扫继续付款</p>
                               </div>
