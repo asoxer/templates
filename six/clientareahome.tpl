@@ -1,4 +1,5 @@
-<div class="tiles clearfix">
+<div class="main-container">
+    <div class="tiles clearfix">
     <div class="row">
         <div class="col-sm-3 col-xs-6 tile" onclick="window.location='clientarea.php?action=services'">
             <a href="clientarea.php?action=services">
@@ -55,14 +56,14 @@
     </div>
 </div>
 
-<form role="form" method="post" action="clientarea.php?action=kbsearch">
+<!-- <form role="form" method="post" action="clientarea.php?action=kbsearch">
     <div class="row">
         <div class="col-md-12 home-kb-search">
             <input type="text" name="search" class="form-control input-lg" placeholder="{$LANG.clientHomeSearchKb}" />
             <i class="fa fa-search"></i>
         </div>
     </div>
-</form>
+</form> -->
 
 {foreach from=$addons_html item=addon_html}
     <div>
@@ -141,3 +142,5 @@
         </div>
     </div>
 </div>
+</div>
+
