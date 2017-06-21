@@ -34,7 +34,7 @@
           <ul class="nav navbar-nav">
               <li class="active"><a href="/">首页</a></li>
               <li><a rel="nofollow" href="/cart.php">购买服务</a></li>
-              <li><a href="/cart.php">使用帮助</a></li>
+              <li><a href="/help">使用帮助</a></li>
               <li><a rel="nofollow" href="/submitticket.php?step=2&deptid=1">联系我们</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right nav-links">
