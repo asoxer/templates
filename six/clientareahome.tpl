@@ -134,7 +134,7 @@
         <div class="col-sm-6">
 
             {foreach $panels as $key => $item}
-                {if $key eq 1}
+                {if $key eq '1'}
                     {if $item@iteration is even}
                         {outputHomePanels}
                     {/if}
