@@ -609,3 +609,6 @@ footer .copyright {
 #order-standard_cart .checkout-security-msg i {
   font-size: 20px !important;
 }
+.main-container {
+  padding: 0px 100px 50px;
+}

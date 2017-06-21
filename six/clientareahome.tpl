@@ -1,7 +1,7 @@
 <div class="main-container">
     <div class="tiles clearfix">
     <div class="row">
-        <div class="col-sm-3 col-xs-6 tile" onclick="window.location='clientarea.php?action=services'">
+        <div class="col-sm-4 col-xs-6 tile" onclick="window.location='clientarea.php?action=services'">
             <a href="clientarea.php?action=services">
                 <div class="icon"><i class="fa fa-cube"></i></div>
                 <div class="stat">{$clientsstats.productsnumactive}</div>
@@ -9,7 +9,7 @@
                 <div class="highlight bg-color-blue"></div>
             </a>
         </div>
-        {if $registerdomainenabled || $transferdomainenabled}
+        <!-- {if $registerdomainenabled || $transferdomainenabled}
             <div class="col-sm-3 col-xs-6 tile" onclick="window.location='clientarea.php?action=domains'">
                 <a href="clientarea.php?action=domains">
                     <div class="icon"><i class="fa fa-globe"></i></div>
@@ -36,8 +36,8 @@
                     <div class="highlight bg-color-green"></div>
                 </a>
             </div>
-        {/if}
-        <div class="col-sm-3 col-xs-6 tile" onclick="window.location='supporttickets.php'">
+        {/if} -->
+        <div class="col-sm-4 col-xs-6 tile" onclick="window.location='supporttickets.php'">
             <a href="supporttickets.php">
                 <div class="icon"><i class="fa fa-comments"></i></div>
                 <div class="stat">{$clientsstats.numactivetickets}</div>
@@ -45,7 +45,7 @@
                 <div class="highlight bg-color-red"></div>
             </a>
         </div>
-        <div class="col-sm-3 col-xs-6 tile" onclick="window.location='clientarea.php?action=invoices'">
+        <div class="col-sm-4 col-xs-6 tile" onclick="window.location='clientarea.php?action=invoices'">
             <a href="clientarea.php?action=invoices">
                 <div class="icon"><i class="fa fa-credit-card"></i></div>
                 <div class="stat">{$clientsstats.numunpaidinvoices}</div>
@@ -133,9 +133,11 @@
         </div>
         <div class="col-sm-6">
 
-            {foreach $panels as $item}
-                {if $item@iteration is even}
-                    {outputHomePanels}
+            {foreach $panels as $key => $item}
+                {if $key eq 1}
+                    {if $item@iteration is even}
+                        {outputHomePanels}
+                    {/if}
                 {/if}
             {/foreach}
 
