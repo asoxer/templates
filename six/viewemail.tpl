@@ -1,3 +1,4 @@
+<!-- $$$$查看邮件 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,11 @@
     <title>{$LANG.clientareaemails} - {$companyname}</title>
 
     {include file="$template/includes/head.tpl"}
-
+    <style type="text/css" media="screen">
+        body {
+            min-width: 720px;
+        }
+    </style>
 </head>
 <body id="popup-backdrop">
     <div class="panel panel-default">
