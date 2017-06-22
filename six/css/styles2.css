@@ -618,3 +618,6 @@ footer .copyright {
 .navbar-main {
   min-height: 0;
 }
+#order-standard_cart {
+  margin: 0 auto !important;
+}
