@@ -26,7 +26,7 @@
                   <dd><a rel="nofollow" href="/clientarea.php" target="_blank">控制面板</a></dd>
                   <dd><a rel="nofollow" href="/submitticket.php?step=2&deptid=1" target="_blank">提交工单</a></dd>
                   <dd><a rel="nofollow" href="/supporttickets.php" target="_blank">我的工单</a></dd>
-                  <dd><a rel="nofollow" href="/clientarea.php" target="_blank">我的服务</a></dd>
+                  <dd><a rel="nofollow" href="/clientarea.php?action=services" target="_blank">我的服务</a></dd>
               </dl>
           </div>
           <div class="col-md-3">
