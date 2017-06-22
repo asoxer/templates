@@ -32,10 +32,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="header-navbar-collapse">
           <ul class="nav navbar-nav">
-              <li class="active"><a href="/">首页</a></li>
-              <li><a rel="nofollow" href="/cart.php">购买服务</a></li>
-              <li><a href="/help">使用帮助</a></li>
-              <li><a rel="nofollow" href="/submitticket.php?step=2&deptid=1">联系我们</a></li>
+              <li class="{if $templatefile eq 'homepage'}active{/if}"><a href="/">首页</a></li>
+              <li class="{if $templatefile eq 'products'}active{/if}"><a rel="nofollow" href="/cart.php">购买服务</a></li>
+              <li class=""><a href="/help">使用帮助</a></li>
+              <li class="{if $templatefile eq 'supportticketsubmit-steptwo'}active{/if}"><a rel="nofollow" href="/submitticket.php?step=2&deptid=1">联系我们</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right nav-links">
             {if $languagechangeenabled && count($locales) > 1}
