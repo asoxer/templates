@@ -1,5 +1,5 @@
 <!-- $$$$注册 -->
-<div class="container panel" style="padding-top: 10px;">
+<div class="container panel" style="padding-top: 10px;margin-top: 20px;">
     {if in_array('state', $optionalFields)}
         <script>
             var stateNotRequired = true;
