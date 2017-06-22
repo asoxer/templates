@@ -615,3 +615,6 @@ footer .copyright {
 .main-container {
   padding: 0px 100px 50px;
 }
+.navbar-main {
+  min-height: 0;
+}
