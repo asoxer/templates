@@ -1,4 +1,4 @@
-<div class="main-container">
+<div class="container">
     {if $successful}
         {include file="$template/includes/alert.tpl" type="success" msg=$LANG.changessavedsuccessfully textcenter=true}
     {/if}

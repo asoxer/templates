@@ -109,7 +109,7 @@
 
 {$headeroutput}
 
-<!-- {if $templatefile eq 'homepage' }
+{if $templatefile eq 'clientareadetails' }
 <section id="main-menu">
 
     <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
@@ -131,4 +131,4 @@
     </nav>
 
 </section>
-{/if} -->
+{/if}
