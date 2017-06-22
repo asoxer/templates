@@ -109,7 +109,7 @@
 
 {$headeroutput}
 
-{if $templatefile eq 'clientareadetails' || $templatefile eq 'clientareahome' || $templatefile eq 'clientareaproducts'}
+{if $templatefile eq 'clientareadetails' || $templatefile eq 'clientareahome' || $templatefile eq 'clientareaproducts' || $templatefile eq 'clientareainvoices' || $templatefile eq 'clientareaquotes'}
 <section id="main-menu">
 
     <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
