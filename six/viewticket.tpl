@@ -1,5 +1,5 @@
 <!-- $$$$查看工单 -->
-<div class="container panel">
+<div class="container panel" style="padding-top: 10px;">
     {if $invalidTicketId}
 
         {include file="$template/includes/alert.tpl" type="danger" title=$LANG.thereisaproblem msg=$LANG.supportticketinvalid textcenter=true}
