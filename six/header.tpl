@@ -109,7 +109,7 @@
 
 {$headeroutput}
 
-{if $templatefile eq 'clientareadetails' || $templatefile eq 'clientareahome' || $templatefile eq 'clientareaproducts' || $templatefile eq 'clientareainvoices' || $templatefile eq 'clientareaquotes' || $templatefile eq 'masspay' || $templatefile eq 'supportticketslist' || $templatefile eq 'viewticket' || $templatefile eq 'announcements' || $templatefile eq 'knowledgebase' || $templatefile eq 'downloads'}
+{if $templatefile eq 'clientareadetails' || $templatefile eq 'clientareahome' || $templatefile eq 'clientareaproducts' || $templatefile eq 'clientareainvoices' || $templatefile eq 'clientareaquotes' || $templatefile eq 'masspay' || $templatefile eq 'supportticketslist' || $templatefile eq 'viewticket' || $templatefile eq 'announcements' || $templatefile eq 'knowledgebase' || $templatefile eq 'downloads' || $templatefile eq 'serverstatus'}
 <section id="main-menu">
 
     <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
