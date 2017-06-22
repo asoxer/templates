@@ -214,6 +214,7 @@ footer .copyright {
   font-size: 16px;
   line-height: 30px;
   opacity: .9;
+  z-index: 50;
 }
 #index .swiper-container .swiper-slide .text h4 {
   font-size: 36px;
@@ -284,8 +285,10 @@ footer .copyright {
 }
 #index .swiper-slide > section {
   position: absolute;
-  bottom: -40%;
+  bottom: 67px;
   left: 0;
+  height: 100%;
+  z-index: 0;
 }
 /* #index .swiper-container .slide-2 {
   background-image: url(/templates/six/images/banner/banner-01-bg.png);
