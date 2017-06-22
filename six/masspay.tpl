@@ -1,5 +1,5 @@
 <!-- $$$$批量付款pay -->
-<form method="post" action="clientarea.php?action=masspay" class="form-horizontal" style="max-width: 1000px;margin: 0 auto; padding-top: 40px;">
+<form method="post" action="clientarea.php?action=masspay" class="form-horizontal panel" style="max-width: 1000px;margin: 0 auto; padding: 20px;">
     <input type="hidden" name="geninvoice" value="true" />
 
     <table class="table">
@@ -63,7 +63,7 @@
         </tbody>
     </table>
 
-    <div class="row">
+    <div class="row" style="padding-top: 40px;">
         <div class="col-sm-6 col-sm-offset-3">
             <div class="panel panel-default">
                 <div class="panel-heading">
