@@ -6,7 +6,7 @@
                   <dt>服务与支持</dt>
                   <dd><a rel="nofollow" href="/submitticket.php?step=2&deptid=1" target="_blank">售前咨询</a></dd>
                   <dd><a rel="nofollow" href="/cart.php" target="_blank">购买服务</a></dd>
-                  <dd><a rel="nofollow" href="/cart.php" target="_blank">附加服务</a></dd>
+                  <dd><a rel="nofollow" href="/cart.php?gid=addons" target="_blank">附加服务</a></dd>
                   <dd><a href="" target="_blank">使用协议</a></dd>
               </dl>
           </div>
@@ -32,7 +32,7 @@
           <div class="col-md-3">
               <dl>
                   <dt>财务管理</dt>
-                  <dd><a rel="nofollow" href="/clientarea.php?action=masspay&all=true" target="_blank">我的账单</a></dd>
+                  <dd><a rel="nofollow" href="/clientarea.php?action=invoices" target="_blank">我的账单</a></dd>
                   <dd><a rel="nofollow" href="/clientarea.php?action=masspay&all=true" target="_blank">批量付款</a></dd>
               </dl>
           </div>
