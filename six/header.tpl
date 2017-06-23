@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title> -->
     <title>天行VPN官网</title>
+    <meta name="keywords" content="天行VPN,天行,官网,天行PRO">
+    <meta name="description" content="天行PRO网络加速器，相比第一代天行VPN，安全性更高，稳定性更强，速度更快。多平台兼容，扫二维码自动设置，无需手动配置。提供美国、日本、香港等多条线路。给您科学上网新体验！">
     {include file="$template/includes/head.tpl"}
 
     {$headoutput}
