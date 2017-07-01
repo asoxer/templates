@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{$companyname} - {$pagetitle}</title>
+    <title>支付订单 - 天行VPN官网</title>
 
     <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css" rel="stylesheet">
     <link href="{$WEB_ROOT}/templates/{$template}/css/invoice.css" rel="stylesheet">
