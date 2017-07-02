@@ -14,10 +14,9 @@
 </head>
 <body>
 
-  <!-- <div class="alert alert-warning alert-top-warning">
-    本站正在升级改版，您可到 <a href="https://shadowsockx.com">影梭官网</a> 购买相关服务，可享用相同服务与价格，感谢您的理解 
-    由于盗版及侵权行为猖獗，2017年1月13日起 天行VPN 一代相关软件停止研发，主推 天行VPN<sup>pro</sup>，老用户将在客户中心自动升级，新用户请记住我们的品牌，<a href="" target="_blank">点此查看天行VPN声明</a>
-  </div> -->
+  <div class="alert alert-warning alert-top-warning">
+    近期受相关政策影响，大量VPN产品已无法使用。为保证天行Pro产品能够正常使用，本站开通账户需客服人工审核开通，账户开通会有延迟，给您带来的不便，本站深表歉意。如遇问题请<a href="/submitticket.php?step=2&deptid=1">提交工单</a>，我们会第一时间为您解决。 —— 天行Pro客服中心。
+  </div>
   <header>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
