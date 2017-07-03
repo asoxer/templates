@@ -13,7 +13,7 @@
                         活动周期：1个月，每日限量200名，活动结束后恢复原价，仅限购买进阶版产品
                     </p>
                     <div class="btns">
-                        <a href="/cart.php?a=confproduct&i=6" class="btn btn-reverse primary">限时半价抢购</a>
+                        <a href="/cart.php?a=add&pid=6" class="btn btn-reverse primary">限时半价抢购</a>
                     </div>
                 </div>
                 <div class="cart-title">

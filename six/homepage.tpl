@@ -69,7 +69,7 @@
               ￥9.90/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php?a=confproduct&i=0" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=add&pid=8" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -87,7 +87,7 @@
               ￥18.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php?a=confproduct&i=1" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=add&pid=3" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item elite">
@@ -105,7 +105,7 @@
               ￥48.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php?a=confproduct&i=2" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=add&pid=5" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -123,7 +123,7 @@
               ￥128.00/年
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php?a=confproduct&i=6" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=add&pid=6" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
   </section>
