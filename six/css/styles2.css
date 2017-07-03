@@ -1,6 +1,6 @@
 a.navbar-brand {
   font-size: 24px;
-  color: #fff;
+  color: #fff !important;
 }
 /* bootstrap reset */
 a,
