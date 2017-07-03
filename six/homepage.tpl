@@ -113,9 +113,8 @@
               年度版
           </div>
           <div class="text">
-              <p class="text-danger">输入优惠码：10EAJ3FB9Y，可享限量半价优惠！先抢先得！</p>
-              <p>终端：6台设备（3 PC + 3 Mobile）</p>
-              <p>流量：不限</p>
+              <p class="text-danger">优惠码：10EAJ3FB9Y</p>
+              <p>终端、流量均不限</p>
               <p>线路：15-18 条</p>
               <p>带宽：千兆带宽接入</p>
               <p>机房：美国、日本、新加坡、香港</p>
