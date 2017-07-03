@@ -69,7 +69,7 @@
               ￥9.90/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=confproduct&i=0" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -87,7 +87,7 @@
               ￥18.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=confproduct&i=1" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item elite">
@@ -105,7 +105,7 @@
               ￥48.00/月
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=confproduct&i=2" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
       <div class="item">
@@ -113,6 +113,7 @@
               年度版
           </div>
           <div class="text">
+              <p class="text-danger">输入优惠码：10EAJ3FB9Y，可享限量半价优惠！先抢先得！</p>
               <p>终端：6台设备（3 PC + 3 Mobile）</p>
               <p>流量：不限</p>
               <p>线路：15-18 条</p>
@@ -123,7 +124,7 @@
               ￥128.00/年
           </div>
           <div class="cart">
-              <a rel="nofollow" href="/cart.php" class="btn btn-default btn-lg">立即购买</a>
+              <a rel="nofollow" href="/cart.php?a=confproduct&i=6" class="btn btn-default btn-lg">立即购买</a>
           </div>
       </div>
   </section>

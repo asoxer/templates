@@ -7,13 +7,13 @@
         <div class="col-xs-12 main-content">
             <div class="products" id="products">
                 <div class="banner">
-                    <h1>今天，购买进阶版，立减 50%，仅售 ￥64 元/年！</h1>
-                    <h2>购买 <strong>进阶版</strong> 产品，在支付页面输入优惠码 <code>10EAJ3FB9Y</code> 立减 <strong>50%</strong>！</h2>
+                    <h1>今天，购买年度版，立减 50%，仅售 ￥64 元/年！</h1>
+                    <h2>购买 <strong>年度版</strong> 产品，在支付页面输入优惠码 <code>10EAJ3FB9Y</code> 立减 <strong>50%</strong>！</h2>
                     <p class="text-muted">
-                        活动周期：3天，每日限量200名，活动结束后恢复原价，仅限购买进阶版产品
+                        活动周期：1个月，每日限量200名，活动结束后恢复原价，仅限购买进阶版产品
                     </p>
                     <div class="btns">
-                        <a href="/cart.php?a=confproduct&i=0" class="btn btn-reverse primary">限时半价抢购</a>
+                        <a href="/cart.php?a=confproduct&i=6" class="btn btn-reverse primary">限时半价抢购</a>
                     </div>
                 </div>
                 <div class="cart-title">
