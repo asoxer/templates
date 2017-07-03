@@ -1255,9 +1255,7 @@ div#orderSummaryLoader.loader {
     background-color: transparent;
     color: #666;
 }
-div#applyPromo.tab-pane.active.promo button.btn {
-    background-color: #ddd;
-}
+
 #order-standard_cart .checkout-security-msg {
     font-size: 1em;
 }

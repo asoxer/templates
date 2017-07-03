@@ -338,8 +338,8 @@
                                         </label>
                                         <input type="text" name="promocode" id="inputPromotionCode" class="field" placeholder="{lang key="orderPromoCodePlaceholder"}" required="required">
                                     </div>
-                                    <button type="submit" name="validatepromo" class="btn btn-success" value="{$LANG.orderpromovalidatebutton}">
-                                        {$LANG.orderpromovalidatebutton}
+                                    <button type="submit" name="validatepromo" class="btn btn-block btn-success" value="{$LANG.orderpromovalidatebutton}">
+                                        请点此验证优惠码 >>
                                     </button>
                                 </form>
                             {/if}
